@@ -58,9 +58,10 @@ Kiwix открывает скачанные копии сайтов. Поиск 
 
 Полный список ссылок — в файле [kiwix.txt](kiwix.txt). Ненужное закомментируй символом `#`. Если места мало, замени английскую Википедию на версию без картинок: 53 ГБ вместо 127.
 
-Скачать всё одной командой:
+Скачать список и все архивы:
 
 ```bash
+curl -LO https://raw.githubusercontent.com/Di-kairos/offline-kit/main/kiwix.txt
 aria2c -i kiwix.txt -d ~/Offline/kiwix -j 3 -x 8 -s 8 --follow-metalink=mem -c --auto-file-renaming=false
 ```
 
