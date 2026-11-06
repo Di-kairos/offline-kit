@@ -1,0 +1,39 @@
+# Список архивов Kiwix для aria2c. Ссылки без даты ведут на свежий выпуск.
+# Ненужное закомментируй символом # в начале строки.
+# Запуск: aria2c -i kiwix.txt -d ~/Offline/kiwix -j 3 -x 8 -s 8 --follow-metalink=mem -c --auto-file-renaming=false
+
+# Википедия
+https://download.kiwix.org/zim/wikipedia_ru_all_maxi.zim.meta4
+https://download.kiwix.org/zim/wikipedia_uk_all_maxi.zim.meta4
+# Английская с картинками, 127 ГБ. Без картинок, 53 ГБ: wikipedia_en_all_nopic
+https://download.kiwix.org/zim/wikipedia_en_all_maxi.zim.meta4
+
+# Медицина
+https://download.kiwix.org/zim/wikipedia_ru_medicine_maxi.zim.meta4
+https://download.kiwix.org/zim/wikipedia_en_medicine_maxi.zim.meta4
+
+# Ремонт, быт, самодельные решения
+https://download.kiwix.org/zim/ifixit_ru_all.zim.meta4
+https://download.kiwix.org/zim/ifixit_en_all.zim.meta4
+https://download.kiwix.org/zim/appropedia_en_all_maxi.zim.meta4
+https://download.kiwix.org/zim/diy.stackexchange.com_en_all.zim.meta4
+https://download.kiwix.org/zim/electronics.stackexchange.com_en_all.zim.meta4
+https://download.kiwix.org/zim/superuser.com_en_all.zim.meta4
+https://download.kiwix.org/zim/apple.stackexchange.com_en_all.zim.meta4
+
+# Путеводители, учебники, тексты
+https://download.kiwix.org/zim/wikivoyage_ru_all_maxi.zim.meta4
+https://download.kiwix.org/zim/wikivoyage_en_all_nopic.zim.meta4
+https://download.kiwix.org/zim/wikibooks_ru_all_maxi.zim.meta4
+https://download.kiwix.org/zim/wikisource_ru_all_nopic.zim.meta4
+
+# Словари
+https://download.kiwix.org/zim/wiktionary_ru_all_nopic.zim.meta4
+https://download.kiwix.org/zim/wiktionary_uk_all_nopic.zim.meta4
+https://download.kiwix.org/zim/wiktionary_en_all_nopic.zim.meta4
+
+# Книги Project Gutenberg: русский раздел и английские разделы «медицина», «сельское хозяйство», «технологии»
+https://download.kiwix.org/zim/gutenberg_ru_all.zim.meta4
+https://download.kiwix.org/zim/gutenberg_en_lcc-r.zim.meta4
+https://download.kiwix.org/zim/gutenberg_en_lcc-s.zim.meta4
+https://download.kiwix.org/zim/gutenberg_en_lcc-t.zim.meta4
