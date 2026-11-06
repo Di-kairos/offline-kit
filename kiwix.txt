@@ -1,12 +1,13 @@
 # Список архивов Kiwix для aria2c. Ссылки без даты ведут на свежий выпуск.
-# Ненужное закомментируй символом # в начале строки.
-# Запуск: aria2c -i kiwix.txt -d ~/Offline/kiwix -j 3 -x 8 -s 8 --follow-metalink=mem -c --auto-file-renaming=false
+# Строки, которые начинаются с #, aria2 пропускает. Ненужный архив: поставь # в начало его строки или удали строку.
+# Как запускать — в full-kit.md, раздел «Библиотека Kiwix».
 
 # Википедия
 https://download.kiwix.org/zim/wikipedia_ru_all_maxi.zim.meta4
 https://download.kiwix.org/zim/wikipedia_uk_all_maxi.zim.meta4
-# Английская с картинками, 127 ГБ. Без картинок, 53 ГБ: wikipedia_en_all_nopic
+# Английская: с картинками 127 ГБ, без картинок 53 ГБ. Нужна одна из двух строк.
 https://download.kiwix.org/zim/wikipedia_en_all_maxi.zim.meta4
+# https://download.kiwix.org/zim/wikipedia_en_all_nopic.zim.meta4
 
 # Медицина
 https://download.kiwix.org/zim/wikipedia_ru_medicine_maxi.zim.meta4
