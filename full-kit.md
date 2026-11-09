@@ -83,7 +83,7 @@ caffeinate -i hf download mradermacher/Qwen3.8-Flash-Next-Uncensored-GGUF Qwen3.
 
 Если модель уже скачана через поиск LM Studio, выполни только вторую команду.
 
-gemma-4-12B проще скачать через поиск LM Studio, как в README.
+Модели gemma проще скачать через поиск LM Studio, как в README.
 
 ### Qwen3.8-27B: для опытных, можно пропустить
 
